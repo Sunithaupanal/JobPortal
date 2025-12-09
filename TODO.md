@@ -1,0 +1,4 @@
+- [x] Change resource_type for resume uploads in backend/controllers/user.controller.js from "raw" to "auto" to enable PDF previews in Cloudinary
+- [x] Remove unnecessary format specification in resume upload options
+- [x] Fix public_id to exclude file extension to prevent double .pdf in URL
+- [x] Test the upload functionality to ensure PDFs show previews and still download correctly
